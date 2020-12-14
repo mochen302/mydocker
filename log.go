@@ -2,10 +2,9 @@ package main
 
 import (
 	"fmt"
-	log "github.com/Sirupsen/logrus"
-	"github.com/xianlubird/mydocker/container"
-	"os"
+	log "github.com/sirupsen/logrus"
 	"io/ioutil"
+	"os"
 )
 
 func logContainer(containerName string) {
